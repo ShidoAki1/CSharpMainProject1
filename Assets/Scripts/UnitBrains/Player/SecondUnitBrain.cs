@@ -23,7 +23,7 @@ namespace UnitBrains.Player
                 return;
             }
 
-            int projectileCount = (int)currentTemperature;
+            int projectileCount = (int)currentTemperature + 1;
 
             for (int i = 0; i < projectileCount; i++)
             {
